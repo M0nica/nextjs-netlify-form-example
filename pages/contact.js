@@ -100,6 +100,11 @@ const ContactPage = () => {
             width: 80%;
             grid-row-gap: 0.5em;
           }
+          @media (max-width: 769px) {
+            .container {
+              width: 100%;
+            }
+          }
           label {
             font-size: 1.2em;
           }
